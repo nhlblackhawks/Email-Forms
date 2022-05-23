@@ -9,21 +9,20 @@
 @media screen and (max-width: 730px) {
  .formbox .form_half { float: none; width: 100%; }
  .formrow .form_half:nth-of-type(2) { margin-top: 20px; }
-}
 
-}
 </style>
-
 	<form action="https://cbhdata.centralus.cloudapp.azure.com/api/leads/4" class="formbox" method="post"><input name="source" type="hidden" value="Website Priority Access Page" /> <input name="thanks" type="hidden" value="https://nhlblackhawks.github.io/Email-Forms/success-page.html" />
+	
 	<div class="formrow">
-		<label><b>Email</b><span style="color:#f00;">*</span></label> <input name="email" required="" type="email" />
+		<label><b>Email</b><span style="color:#f00;">*</span></label> <input name="email" required="" type="text" />
 	</div>
+		
 	<div class="formrow">
 		<div class="formrow_half">
 			<b><label>First Name</label></b> <input name="FirstName" type="text" />
 		</div>
 		<div class="formrow_half">
-			<label><b>Last Name</b> </label> <input name="LastNAme" type="text" />
+			<label><b>Last Name</b> </label> <input name="LastName" type="text" />
 		</div>
 		<div style="clear:both;">
 			&nbsp;
