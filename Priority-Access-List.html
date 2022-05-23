@@ -9,27 +9,28 @@
 @media screen and (max-width: 730px) {
  .formbox .form_half { float: none; width: 100%; }
  .formrow .form_half:nth-of-type(2) { margin-top: 20px; }
+}
 
+}
 </style>
-	<form action="https://cbhdata.centralus.cloudapp.azure.com/api/leads/4" class="formbox" method="post"><input name="source" type="hidden" value="Website Priority Access Page" /> <input name="thanks" type="hidden" value="https://nhlblackhawks.github.io/Email-Forms/success-page.html" />
-	
+
+	<form action="https://cloud.e.blackhawks.com/submit" class="formbox" method="post"><input name="source" type="hidden" value="Website Priority Access Page" /> <input name="thanks" type="hidden" value="https://nhlblackhawks.github.io/Email-Forms/success-page.html" />
 	<div class="formrow">
-		<label><b>Email</b><span style="color:#f00;">*</span></label> <input name="Email" required="" type="text" />
+		<label><b>Email</b><span style="color:#f00;">*</span></label> <input name="email" required="" type="text" />
 	</div>
-		
 	<div class="formrow">
 		<div class="formrow_half">
-			<b><label>First Name</label></b> <input name="FirstName" type="text" />
+			<b><label>First Name</label></b> <input name="firstname" type="text" />
 		</div>
 		<div class="formrow_half">
-			<label><b>Last Name</b> </label> <input name="LastName" type="text" />
+			<label><b>Last Name</b> </label> <input name="lastname" type="text" />
 		</div>
 		<div style="clear:both;">
 			&nbsp;
 		</div>
 	</div>
 	<div class="formrow">
-		<b><label>Phone</label></b> <input name="Phone" type="text" />
+		<b><label>Phone</label></b> <input name="phone" type="text" />
 	</div>
 	<div class="formrow">
 		<table style="border-color: ffffff; border: 0px;">
@@ -44,27 +45,27 @@
 				<tr style="border-color: ffffff; border: 0px;">
 				</tr>
 				<tr style="border-color: ffffff; border: 0px;">
-					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Interested_in_Ticket_Types__c" type="checkbox" value="Full Season" /></td>
+					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Full Season Tickets" type="checkbox" value="TRUE" /></td>
 					<td style="border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;">Full Season Tickets</td>
 				</tr>
 				<tr style="border-color: ffffff; border: 0px;">
-					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Interested_in_Ticket_Types__c" type="checkbox" value="Half Season" /></td>
+					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Partial Season Tickets" type="checkbox" value="TRUE" /></td>
 					<td style="border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;">Partial Season Tickets</td>
 				</tr>
 				<tr style="border-color: ffffff; border: 0px;">
-					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Interested_in_Ticket_Types__c" type="checkbox" value="Pick Em Plans" /></td>
-					<td style="border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;">Pick Em Plans</td>
+					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Flex Plans" type="checkbox" value="TRUE" /></td>
+					<td style="border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;">Flex Plans</td>
 				</tr>
 				<tr style="border-color: ffffff; border: 0px;">
-					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Interested_in_Ticket_Types__c" type="checkbox" value="Group" /></td>
+					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Group Tickets" type="checkbox" value="TRUE" /></td>
 					<td style="border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;">Group Tickets</td>
 				</tr>
 				<tr style="border-color: ffffff; border: 0px;">
-					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Interested_in_Ticket_Types__c" type="checkbox" value="Single Game" /></td>
+					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Single Game Tickets" type="checkbox" value="TRUE" /></td>
 					<td style="border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;">Single Game Tickets</td>
 				</tr>
 				<tr style="border-color: ffffff; border: 0px;">
-					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="Interested_in_Ticket_Types__c" type="checkbox" value="Suite" /></td>
+					<td style="width: 30px; border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;"><input name="UC Suite Rentals" type="checkbox" value="TRUE" /></td>
 					<td style="border-color: ffffff; border: 0px; padding:10px 0px 10px 0px;">UC Suite Rentals</td>
 				</tr>
 			</tbody>
