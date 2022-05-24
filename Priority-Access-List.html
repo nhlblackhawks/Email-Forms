@@ -4,6 +4,7 @@
 .formrow .formrow_half:nth-of-type(2) { float: right; }
 .formbox label { display: block; clear: both; margin-bottom: 4px; color: #333333; }
 .formbox input[type="text"] { padding: 6px; font-size: 1em; color: #000000; border: 1px solid #CCCCCC; width: 100%; box-sizing: border-box; }
+.formbox input[type="email"] { padding: 6px; font-size: 1em; color: #000000; border: 1px solid #CCCCCC; width: 100%; box-sizing: border-box; }
 .formbox select { padding: 6px; font-size: 1em; }
 .formbox input[type="submit"] { clear: both; border-radius: 3px; border-color: #000000; background: #FFB81C none repeat scroll 0% 0%; color: #000000; font-size: 1em; padding: 8px 20px; }
 @media screen and (max-width: 730px) {
@@ -16,7 +17,7 @@
 
 	<form action="https://cbhdata.centralus.cloudapp.azure.com/api/leads/4" class="formbox" method="post"><input name="source" type="hidden" value="Website Priority Access Page" /> <input name="thanks" type="hidden" value="https://nhlblackhawks.github.io/Email-Forms/success-page.html" />
 	<div class="formrow">
-		<label><b>Email</b><span style="color:#f00;">*</span></label> <input name="Email" required="" type="text" />
+		<label><b>Email</b><span style="color:#f00;">*</span></label> <input name="Email" required="" type="email" />
 	</div>
 	<div class="formrow">
 		<div class="formrow_half">
